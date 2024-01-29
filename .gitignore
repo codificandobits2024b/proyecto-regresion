@@ -1,0 +1,8 @@
+# No hacer seguimiento a estos archivos
+*.DS_Store
+*.exe
+*.app
+*.dmg
+
+# No rastrear la carpeta "temp"
+temp/
