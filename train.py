@@ -5,5 +5,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 # Crear dataset
 X, y = load_diabetes(return_X_y=True)
+
+# Crear modelo y validarlo
 regressor = DecisionTreeRegressor(random_state=0)
 cross_val_score(regressor, X, y, cv=10)
